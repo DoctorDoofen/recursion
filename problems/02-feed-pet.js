@@ -13,7 +13,7 @@ function feedPet(name) {
     return "Fed " + name + " " + foods.push(food) + ".";
   }
 }
-
+debugger
 const feedHydra = feedPet('Hydra');
 
 console.log(feedHydra('bones')); // Fed Hyrda bones.
